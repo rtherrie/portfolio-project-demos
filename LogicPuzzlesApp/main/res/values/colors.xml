@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text">#ffffff</color>
+    <color name="screen">#AFAFDC</color>
+    <color name="input_background">#8A84E2</color>
+    <color name="label_background">#B2BD7E</color>
+    <color name="button_background">#8A84E2</color>
+</resources>

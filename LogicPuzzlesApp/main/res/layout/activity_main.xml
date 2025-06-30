@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen"
+    tools:context=".MainActivity">
+
+    <!--  Label for the app  -->
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/text"
+        android:text="Logic Puzzles" />
+
+    <!--Button to go to sudoku page-->
+    <Button
+        android:id="@+id/sudoku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_background"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_below="@id/label"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="sudokuButton"
+        android:text="Sudoku" />
+
+    <!--Button to go to nonogram page-->
+    <Button
+        android:id="@+id/nonogram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_background"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_below="@id/sudoku"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="nonogramButton"
+        android:text="Nonogram" />
+
+
+    <!--Button to go to word puzzle page-->
+    <Button
+        android:id="@+id/cryptogram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_background"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_below="@id/nonogram"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="cryptogramButton"
+        android:text="Cryptogram" />
+
+
+</RelativeLayout>
